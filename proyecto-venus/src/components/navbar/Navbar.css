@@ -29,6 +29,8 @@ nav a{
     font-family: 'Roboto Condesed', sans-serif;
     letter-spacing: .02em;
     gap: 10px;
+    align-items: center;
+    
 }
 
 nav div{
@@ -37,9 +39,16 @@ nav div{
     gap: 30px;
 }
 
+nav i{
+    display: flex;
+    align-items: center;
+}
+
 #shop{
     font-weight: 300;
     color: black;
     font-size: 40px;
-    padding-right: 25px;
+   
 }
+
+

@@ -1,5 +1,6 @@
 import './Navbar.css'
 import styled from 'styled-components'
+import CartWidget from './cartwidget/CartWidget';
 
 
 const Navbar = () => {
@@ -17,10 +18,8 @@ const Navbar = () => {
 
 <label for="check"><i class="material-icons" id="btn">menu</i>
     <i class="material-icons" id="cancel">close</i></label>*/}
-    
-    <a href="#"><i class="material-symbols-outlined" id="shop">
-        shopping_bag
-    </i></a> 
+        <CartWidget />
+  
          </NavContainer>
           
 
