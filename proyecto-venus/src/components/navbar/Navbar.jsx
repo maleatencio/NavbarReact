@@ -1,6 +1,7 @@
 import './Navbar.css'
 import styled from 'styled-components'
 import CartWidget from './cartwidget/CartWidget';
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -9,9 +10,9 @@ const Navbar = () => {
          <NavContainer>
             <h2>venus</h2>
             <div>
-                <a href="#">New in</a>
-                <a href="#">Shop all</a>
-                <a href="#">Nosotros</a>
+                <NavLink className="navbar-link" to="/">new in</NavLink>
+                <NavLink className="navbar-link" to="/products">shop all</NavLink>
+                <NavLink className="navbar-link" to="/">Nosotros</NavLink>
             </div>
 
            {/*} <input type="checkbox" id="check"/>
